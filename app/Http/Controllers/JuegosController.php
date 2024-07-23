@@ -116,3 +116,5 @@ class JuegosController extends Controller
         return back()->with('success', 'Juegos eliminado correctamente');
     }
 }
+
+// developed by JotaDev

@@ -15,7 +15,7 @@
         <input type="text" name="title" placeholder="Title" value="{{$juegos->title}}">
         <div class="select">
             <select name="plarform">
-                <option value="">{{ $juegos -> plarform }}</option>
+                <option value="{{ $juegos -> plarform }}">{{ $juegos -> plarform }}</option>
                 <option value="Atari 2600">Atari 2600</option>
                 <option value="Dreamcast">Dreamcast</option>
                 <option value="Game Boy Advance">Game Boy Advance</option>
