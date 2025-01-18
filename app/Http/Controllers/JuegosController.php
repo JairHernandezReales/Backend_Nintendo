@@ -95,6 +95,7 @@ class JuegosController extends Controller
             if($imgFormer && Storage::exists($imgFormer)){
                 Storage::delete($imgFormer);
             }
+            
             $uploadSuccess = $image->move($addressImg, $nameImg);
             $juegos -> image = $addressImg.$nameImg;
         }

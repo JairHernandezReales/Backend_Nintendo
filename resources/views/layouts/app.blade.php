@@ -13,7 +13,9 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet" </head> <body>
+    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet" 
+</head> 
+<body>
     <div id="app">
         <main class="py-4">
             @yield('content')
